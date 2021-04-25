@@ -4,15 +4,10 @@
 
 namespace ConsoleApp2.Model
 {
-    using ConsoleApp2.Controller;
-
     public class DemoModel
     {
         public void Run()
         {
-            var controller = new DemoController();
-
-            controller.Run();
         }
     }
 }

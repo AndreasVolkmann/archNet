@@ -7,7 +7,7 @@ namespace ConsoleApp2.Service
     using System;
     using ConsoleApp2.Repository;
 
-    public class DemoService
+    public class DemoService : IDemoService
     {
         private readonly IDemoRepository demoRepository;
 
